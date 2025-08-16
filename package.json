@@ -2,6 +2,16 @@
   "name": "@zero-to-100/plugin-request-encryption",
   "version": "0.1.0",
   "main": "dist/server/index.js",
+  "displayName": "HTTP request encryption",
+  "displayName.zh-CN": "HTTP 请求加密",
+  "description": "Encrypts request parameters (Query Parameters) before sending an HTTP request.",
+  "description.zh-CN": "用于在发送 HTTP 请求前，对请求参数（Query Parameters）进行加密处理。",
+  "removable": false,
+  "isCompatible": true,
+  "enabled": false,
+  "installed": false,
+  "builtIn": false,
+
   "dependencies": {},
   "peerDependencies": {
     "@nocobase/client": "1.x",
