@@ -87,9 +87,11 @@ export async function useDecodeEncodedQuery(
 
     decoded = deepDecodeStrings(decoded);
 
+    /*
     console.log("encoded __encoded__ decoded",decoded);
     console.log("encoded __encoded__",encoded);
     console.log("encoded query",ctx.query);
+     */
 
     if (typeof decoded !== 'object' || decoded == null || Array.isArray(decoded)) {
       return {
