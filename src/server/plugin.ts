@@ -69,7 +69,8 @@ export class PluginRequestEncryptionServer extends Plugin {
         rewriteQueryString: true,
         maxEncodedLength: 100_000
       });
-      console.log("decoded  params --------------",res );
+
+      //console.log("decoded  params --------------",res );
 
       if(res.ok){
         ctx.action.params={
