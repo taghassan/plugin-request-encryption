@@ -79,7 +79,6 @@ class PluginRequestEncryptionServer extends import_server.Plugin {
         rewriteQueryString: true,
         maxEncodedLength: 1e5
       });
-      console.log("decoded  params --------------", res);
       if (res.ok) {
         ctx.action.params = {
           ...ctx.action.params,
